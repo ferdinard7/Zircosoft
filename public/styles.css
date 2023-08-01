@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    font-family: 'Urbanist', sans-serif;    
+}
+
+/* @media only screen and (max-width: 400px) {
+    .navbar-container {
+        background-color: white;
+    }
+
+    .right {
+      display: none;
+    }
+  
+    .navbar-container {
+      padding: 5px 5px 0;
+    }
+  
+    
+    .dropdown-toggle {
+      font-size: 22px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      flex-direction: row; 
+      align-items: center;
+      font-size: 24px;
+      color: #333;
+    }
+  
+} */

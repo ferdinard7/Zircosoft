@@ -1,0 +1,31 @@
+.zircosoft-container {
+    margin-bottom: 30px;
+}
+ 
+.zircosoft-heading {
+  padding: 6% 18% 2%;
+  font-size: 40px;
+  color: #7895CB;
+}
+
+.container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 0 18% 0;
+}
+
+.line {
+    /* width: 50px; */
+    /* flex: 1; */
+    height: 120px;
+    background-color: #4A55A2;
+    width: 1%;
+}
+
+.details {
+    padding-left: 12px;
+    flex: 6;
+    color: #4A55A2;
+    padding-right: 10%;
+}

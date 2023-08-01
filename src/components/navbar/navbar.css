@@ -1,0 +1,174 @@
+ .navbar-container {
+    height: 60px;
+    padding: 20px 55px 0;
+    position: fixed;
+    width: 95%;
+    background-color: #4A55A2;
+    /* margin-bottom: 5px; */
+ }
+
+ .center {
+    display: none;
+ }
+
+.navbar-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+.right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.menu-item {
+        margin-right: 25px;
+        cursor: pointer;
+        font-size: 14px;
+        color: #fff;
+    }
+
+.navbar-logo { 
+     cursor: pointer; 
+     /* color: #4A55A2; */
+     color: #fff;
+ } 
+
+ /* .right { 
+     flex: 1;
+     display: flex; 
+     align-items: center; 
+     justify-content: flex-end; 
+     justify-content: space-around; 
+ align-items: center; 
+ }   */
+
+ .navbar-register-button { 
+    cursor: pointer; 
+     background-color: #F4BD0E; 
+     color: #fff; 
+     border-color: #F4BD0E; 
+     border-radius: 5px;
+     /* padding: 8px 15px;   */
+     padding: 8px;
+ } 
+
+ .navbar-register-button:hover { 
+     cursor: pointer; 
+     background-color: gray; 
+     color: #F4BD0E; 
+     border-color: gray; 
+     border-radius: 5px; 
+     padding: 8px; 
+ }
+
+ .navbar-login-button { 
+     cursor: pointer; 
+     background-color: #fff; 
+     color: blue; 
+     border-color: #fff; 
+     border-radius: 5px; 
+     padding: 8px 15px; 
+ } 
+
+ .navbar-login-button:hover { 
+     cursor: pointer; 
+    background-color: blue; 
+     color: #fff; 
+     border-color: blue; 
+     border-radius: 5px; 
+     padding: 8px 15px; 
+ } 
+
+/* ... (Previous CSS code) ... */
+
+@media only screen and (max-width: 800px) {
+    .navbar-container {
+        padding: 15px 15px 0;
+    }
+
+    .navbar-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-item { 
+     font-size: 14px; 
+     cursor: pointer; 
+     /* margin-left: 25px;  */
+     margin-bottom: 10px;
+ }
+   .navbar-register-button { 
+     cursor: pointer; 
+     background-color: #F4BD0E; 
+     color: #fff; 
+     border-color: #F4BD0E; 
+     border-radius: 5px; 
+     padding: 8px; 
+ }
+ 
+ .center {
+    display: inline;
+ }
+
+ .navbar-register-button:hover { 
+     cursor: pointer; 
+     background-color: gray; 
+     color: #F4BD0E; 
+     border-color: gray; 
+     border-radius: 5px; 
+     padding: 8px; 
+ } 
+
+ .navbar-login-button { 
+     cursor: pointer; 
+     background-color: #fff; 
+    color: blue; 
+    border-color: #fff; 
+     border-radius: 5px; 
+     padding: 8px 15px; 
+ } 
+
+ .navbar-login-button:hover { 
+     cursor: pointer; 
+     background-color: blue; 
+     color: #fff; 
+     border-color: blue; 
+     border-radius: 5px; 
+     padding: 8px 15px; 
+ } 
+
+    /* .center {
+        margin-right: 15px;
+    } */
+
+    .right {
+      display: none;
+    }
+
+     .dropdown-toggle {
+      font-size: 22px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      flex-direction: row; 
+      align-items: center;
+      font-size: 24px;
+      color: #333;
+    }
+   
+    /* Add the .right class to ensure proper alignment */
+     /* .right {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }  */
+
+    /* .logo {
+        display: inline;
+    } */
+   }
+  

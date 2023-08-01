@@ -1,0 +1,49 @@
+.products-container {
+    background-color: #C5DFF8;
+    margin-top: 70px;
+    padding-bottom: 7%;
+}
+
+.products-heading {
+    padding: 4% 10% 0;
+    font-size: 30px;
+    color: #4A55A2;
+    /* color: #4A55A2; */
+}
+
+.products-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1% 9% 0;
+    color:  #fff;
+}
+
+
+.first {
+    height: 28vh;
+    /* background: url("https://myabove.ng/images/card/red-card.svg"); */
+    background-size: cover;
+    width: 29%;
+    border-radius: 7%;
+    padding-left: 2%;
+    padding-top: 2%;
+    margin-top: 30px;
+    /* padding-bottom: 4%; */
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.img {
+    height: 40px;
+}
+
+.buy {
+   margin: 15px 0;
+}

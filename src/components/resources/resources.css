@@ -1,0 +1,44 @@
+.resources-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 7%;
+    background-color: #4A55A2;
+    /* background-color: #7895CB; */
+    color: #fff;
+}
+
+.first-resource {
+    flex: 4;
+    margin-top: 3%;
+}
+
+.first-resource > h1 {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.second-resource {
+    flex: 3;
+}
+
+.second-resource-paragraph {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.third-resource {
+    flex: 3;
+    /* padding: 0 20%; */
+}
+
+.third-resource > h4 {
+    margin-bottom: 10px;
+}
+
+.small {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,41 @@
+.reviews-container {
+    background-color: #4A55A2;
+    padding: 5% 1%;
+}
+
+.reviews-heading {
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+}
+
+.reviews-paragraph {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.reviews-wrapper {
+    /* background-color: red; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* padding: 3% 5%; */
+}
+
+.reviews-card {
+ height: 30vh;
+ background-color: #fff;
+ margin-right: 30px;
+ text-align: center;
+ border-radius: 2%;
+}
+
+.reviews-img {
+    height: 70px;
+}
+
+.reviews-details {
+    margin: 5px 0 20px 0;
+}

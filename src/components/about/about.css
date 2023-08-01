@@ -1,0 +1,62 @@
+.about-container {
+    width: 100%;
+    height: 65vh;
+    background-color: #4A55A2;
+    text-align: center;
+}
+
+.about-heading {
+     padding: 8% 23% 0; 
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    line-height: 1.17;
+}
+
+.about-span {
+    padding: 0 28% 2%;
+    color: #b7c2d0;
+    font-size: 16px; 
+    /* margin-bottom: 25px; */
+}
+
+.about-register {
+    cursor: pointer; 
+     background-color: silver; 
+     color: #4A55A2; 
+     border-color: silver; 
+     /* #F4BD0E;   */
+     border-radius: 5px; 
+     padding: 12px 15px; 
+     margin-right: 25px;
+     font-size: 14px;
+     /* height: 30px; */
+}
+
+.about-register:hover {
+    /* cursor: pointer;  */
+     background-color: black; 
+     color: #fff; 
+     border-color: black; 
+     border-radius: 5px; 
+     padding: 12px 15px; 
+}
+
+.about-login { 
+    cursor: pointer; 
+    background-color: #fff; 
+    color: blue; 
+    border-color: #fff; 
+    border-radius: 5px; 
+    padding: 12px 20px;
+    font-size: 14px;
+} 
+
+.about-login:hover { 
+    cursor: pointer; 
+    background-color: blue; 
+    color: #fff; 
+    border-color: blue; 
+    border-radius: 5px; 
+    /* padding: 12px 15px; */
+} 
