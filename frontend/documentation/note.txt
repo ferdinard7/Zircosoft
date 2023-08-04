@@ -1,0 +1,7 @@
+This file will be converted to a README file soon
+
+
+Important Note
+The App file should not be in the components folder as the components folder
+should only container the individual react components of the website like header,
+footer,and others
